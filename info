@@ -1,0 +1,368 @@
+{
+  "uuid": "8dfe58b4c18791e00146d8cc3e6065ad",
+  "path": "Offline/DJ Controller Circuits",
+  "name": "DJ Controller Circuits",
+  "content": "",
+  "created_at": "2025-10-15 20:18:49",
+  "updated_at": "2025-10-16 04:52:53",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6555d23660a92a1b02f4900a435d7815",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a7eb26eeb18a45bca8f0abfa1a6185c4": 46,
+        "a8061912a1504bf9b12c9c41e2c59030": 46,
+        "4ad48abddc6a463186e42a3aaf50bcc9": 1,
+        "1ac2461c144841d59f56da5e0de05763": 1,
+        "c64dd700f9d84493aa687ace846d3f2a": 1,
+        "ff606c9e14134268822855d014265cb7": 17,
+        "e0b0d01b6e0d44dbab9db0ad79a427bc": 9
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SPARKFUN_PRO_MICRO",
+          1,
+          "ARDUINOPROMICRO",
+          "B1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "TS6675CJ",
+          43,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "CUE1,CUE2,LD1,LD2,LR,MUTE1,MUTE2,PAD12,PAD13,PAD14,PAD15,PAD16,PAD17,PAD18,PAD21,PAD22,PAD23,PAD24,PAD25,PAD26,PAD27,PAD28,PADFN11,PADFN12,PADFN13,PADFN14,PADFN21,PADFN22,PADFN23,PADFN24,PLAY1,PLAY2,RL,SEL1,SEL2,TSH11,TSH12,TSH13,TSH14,TSH21,TSH22,TSH23,TSH24",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "1N4148",
+          46,
+          "DO-35_BD2.2-L4.0-D0.50_1N4148",
+          "D_CUE1,D_CUE2,D_LD1,D_LD2,D_LR,D_MUTE1,D_MUTE2,D_PAD11,D_PAD12,D_PAD13,D_PAD14,D_PAD15,D_PAD16,D_PAD17,D_PAD18,D_PAD21,D_PAD22,D_PAD23,D_PAD24,D_PAD25,D_PAD26,D_PAD27,D_PAD28,D_PADFN11,D_PADFN12,D_PADFN13,D_PADFN14,D_PADFN21,D_PADFN22,D_PADFN23,D_PADFN24,D_PLAY1,D_PLAY2,D_RL,D_SEL1,D_SEL2,D_SH1,D_SH2,D_TSH11,D_TSH12,D_TSH13,D_TSH14,D_TSH21,D_TSH22,D_TSH23,D_TSH24",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "LJ(朗捷)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18195411"
+          }
+        ],
+        [
+          "CD74HC166E",
+          1,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "IC_COL",
+          {
+            "Manufacturer Part": "CD74HC166E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2864977"
+          }
+        ],
+        [
+          "CD74HC238E",
+          1,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "IC_ROW",
+          {
+            "Manufacturer Part": "CD74HC238E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1547095"
+          }
+        ],
+        [
+          "PAD11",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "PAD11",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "R_3386P_US",
+          9,
+          "RES-ADJ-TH_3386P",
+          "RP_FX11,RP_FX12,RP_FX21,RP_FX22,RP_TMP1,RP_TMP2,RP_VOL1,RP_VOL2,RP_XFADER",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "20kΩ",
+          8,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R_C1,R_C2,R_C3,R_C4,R_C5,R_C6,R_C7,R_C8",
+          {
+            "Manufacturer Part": "CF2WS-20KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120632"
+          }
+        ],
+        [
+          "10kΩ",
+          9,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R_FX11,R_FX12,R_FX21,R_FX22,R_TMP1,R_TMP2,R_VOL1,R_VOL2,R_XFADER",
+          {
+            "Manufacturer Part": "CF2WS-20KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120632"
+          }
+        ],
+        [
+          "SH1",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SH1",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "SH2",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SH2",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ]
+      ],
+      "updateTime": 1760544991,
+      "createTime": 1760527130,
+      "histories": [],
+      "created_at": "2025-10-15 20:18:50",
+      "updated_at": "2025-10-16 01:16:31"
+    },
+    {
+      "uuid": "5f67959adad7e2caa3f3143f6487be55",
+      "puuid": "8dfe58b4c18791e00146d8cc3e6065ad",
+      "title": "PCB_DJ Controller Circuits",
+      "filename": "PCB_DJ Controller Circuits.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5e9707554a3a451dbacfe44736d2b267": 1,
+        "fbcca19385684059bab218e0394c18b0": 46,
+        "9ea59130ae074fa3abe27de8cbf71d91": 17,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 46,
+        "5274406e19354d008c5fde605f0c6ecf": 2,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 4,
+        "be14f45503694390b0efa68c8150172c": 5
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SPARKFUN_PRO_MICRO",
+          1,
+          "ARDUINOPROMICRO",
+          "B1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "TS6675CJ",
+          43,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "CUE1,CUE2,LD1,LD2,LR,MUTE1,MUTE2,PAD12,PAD13,PAD14,PAD15,PAD16,PAD17,PAD18,PAD21,PAD22,PAD23,PAD24,PAD25,PAD26,PAD27,PAD28,PADFN11,PADFN12,PADFN13,PADFN14,PADFN21,PADFN22,PADFN23,PADFN24,PLAY1,PLAY2,RL,SEL1,SEL2,TSH11,TSH12,TSH13,TSH14,TSH21,TSH22,TSH23,TSH24",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "PAD11",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "PAD11",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "SH1",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SH1",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "SH2",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SH2",
+          {
+            "Manufacturer Part": "TS6675CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557623"
+          }
+        ],
+        [
+          "1N4148",
+          46,
+          "DO-35_BD2.2-L4.0-D0.50_1N4148",
+          "D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D_SH1,D_SH2",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "LJ(朗捷)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18195411"
+          }
+        ],
+        [
+          "CD74HC166E",
+          1,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "IC_COL",
+          {
+            "Manufacturer Part": "CD74HC166E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2864977"
+          }
+        ],
+        [
+          "CD74HC238E",
+          1,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "IC_ROW",
+          {
+            "Manufacturer Part": "CD74HC238E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1547095"
+          }
+        ],
+        [
+          "20kΩ",
+          7,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7",
+          {
+            "Manufacturer Part": "CF2WS-20KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120632"
+          }
+        ],
+        [
+          "20kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10kΩ",
+          9,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R_FX11,R_FX12,R_FX21,R_FX22,R_TMP1,R_TMP2,R_VOL1,R_VOL2,R_XFADER",
+          {
+            "Manufacturer Part": "CF2WS-20KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120632"
+          }
+        ],
+        [
+          "R_3386P_US",
+          4,
+          "RES-ADJ-TH_3386P",
+          "RP_FX11,RP_FX12,RP_FX21,RP_FX22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "R_3386P_US",
+          5,
+          "DM4070",
+          "RP_TMP1,RP_TMP2,RP_VOL1,RP_VOL2,RP_XFADER",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1760557973,
+      "createTime": 1760534787,
+      "histories": [],
+      "created_at": "2025-10-15 22:26:27",
+      "updated_at": "2025-10-16 04:52:53"
+    }
+  ],
+  "sort": [],
+  "title": "DJ Controller Circuits",
+  "foldername": "DJ Controller Circuits",
+  "schfilename": "DJ Controller Circuits.json",
+  "schfilemtime": 1760544991935
+}
